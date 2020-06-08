@@ -1,0 +1,2 @@
+pyftsubset GothamPro.ttf --unicodes-file=cyrillic-basic.txt --no-subset-tables+=FFTM
+glyphhanger --subset=GothamPro.subset.ttf --no-subset-tables+=FFTM

@@ -1,0 +1,6 @@
+/.idea/*
+.DS_Store
+*.log
+.vscode
+.eslintcache
+package-lock.json

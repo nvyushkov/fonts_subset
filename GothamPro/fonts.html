@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            @font-face {
+            font-display:swap;
+            font-weight:400;
+            font-style:normal;
+            font-family: "GothamPro";
+            src:url("./GothamPro-latyn.woff2") format("woff2");
+            unicode-range: U+0020-007F;
+            }
+            @font-face {
+            font-display:swap;
+            font-weight:400;
+            font-style:normal;
+            font-family: "GothamPro";
+            src:url("./GothamPro-cyrillic.woff2") format("woff2");
+            unicode-range: U+0400-04FF;
+            }
+            body {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+                grid-template-rows: 1fr 1fr;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .latyn section:nth-of-type(2) {
+                font-family: "GothamPro", sans-serif;
+            }
+            .cyrillic section:nth-of-type(2) {
+                font-family: "GothamPro", sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="latyn">
+            <section>
+                <h2>Latyn main</h2>
+                <p>QWERTYUIOPASDFGHJKLZXCVBNM</p>
+                <p>qazwsxedcrfvtgbyhnujmikolp</p>
+                <p>{}[]:;'"\|,./?</p>
+                <p>0123456789*-+</p>
+            </section>
+            <section>
+                <h2>Latyn main</h2>
+                <p>QWERTYUIOPASDFGHJKLZXCVBNM</p>
+                <p>qazwsxedcrfvtgbyhnujmikolp</p>
+                <p>{}[]:;'"\|,./?</p>
+                <p>0123456789*-+</p>
+            </section>
+        </div>
+        <div class="cyrillic">
+            <section>
+                <h2>Кириллица осн</h2>
+                <p>ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЁЯЧСМИТЬБЮ</p>
+                <p>йцукенгшщзхъфывапролджэёячсмитьбю</p>
+                <p>{}[]:;'"\|,./?</p>
+                <p>0123456789*-+</p>
+            </section>
+        <section>
+            <h2>Кириллица осн</h2>
+            <p>ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЁЯЧСМИТЬБЮ</p>
+            <p>йцукенгшщзхъфывапролджэёячсмитьбю</p>
+            <p>{}[]:;'"\|,./?</p>
+            <p>0123456789*-+</p>
+        </section></div>
+    </body>
+</html>
